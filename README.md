@@ -9,7 +9,7 @@ Maven 私有仓库
     <repository>
         <id>github-repository</id>
         <name>Github Maven Repository</name>
-        <url>https://gitee.com/fank243/mvnrepository/master</url>
+        <url>https://gitee.com/ant_star/mvnrepository/raw/master</url>
     </repository>
 </repositories>
 ```

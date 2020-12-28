@@ -8,7 +8,7 @@
   <artifactId>antstar-dependencies</artifactId>
   <version>1.0.0</version>
 
-  <name>antstar-mvn-repo</name>
+  <name>antstar-dependencies</name>
   <description>Maven 私有仓库</description>
 
   <properties>
@@ -61,10 +61,45 @@
     <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
     <mysql-connector.version>8.0.22</mysql-connector.version>
 
+    <emoji-java.version>5.1.1</emoji-java.version>
+
+    <!-- https://mvnrepository.com/artifact/org.apache.shiro/shiro-core -->
+    <shiro.version>1.5.2</shiro.version>
+    <shiro-redis.version>3.3.1</shiro-redis.version>
+
+    <!--微信小程序SDK(非官方)-->
+    <weixin-java-miniapp.version>3.7.0</weixin-java-miniapp.version>
   </properties>
 
   <dependencyManagement>
     <dependencies>
+      <dependency>
+          <groupId>org.apache.poi</groupId>
+          <artifactId>poi-ooxml</artifactId>
+          <version>${poi.version}</version>
+      </dependency>
+
+      <dependency>
+          <groupId>com.github.binarywang</groupId>
+          <artifactId>weixin-java-miniapp</artifactId>
+          <version>${weixin-java-miniapp.version}</version>
+      </dependency>
+
+      <dependency>
+          <groupId>org.apache.shiro</groupId>
+          <artifactId>shiro-spring</artifactId>
+          <version>${shiro.version}</version>
+      </dependency>
+      <dependency>
+          <groupId>org.crazycake</groupId>
+          <artifactId>shiro-redis</artifactId>
+          <version>${shiro-redis.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.vdurmont</groupId>
+        <artifactId>emoji-java</artifactId>
+        <version>${emoji-java.version}</version>
+      </dependency>
       <dependency>
         <groupId>io.springfox</groupId>
         <artifactId>springfox-swagger2</artifactId>

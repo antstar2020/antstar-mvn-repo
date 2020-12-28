@@ -6,7 +6,7 @@
 
   <groupId>com.antstar.maven</groupId>
   <artifactId>antstar-dependencies</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
 
   <name>antstar-dependencies</name>
   <description>Maven 私有仓库</description>

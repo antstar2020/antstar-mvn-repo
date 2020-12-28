@@ -14,6 +14,7 @@
       <module name="antstar-boot-dependencies" target="1.8" />
       <module name="antstar-mvn-repo" target="1.8" />
       <module name="antstar-mybatis-dependencies" target="1.8" />
+      <module name="antstar-tencent-dependencies" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
